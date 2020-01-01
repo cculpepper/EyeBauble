@@ -1,0 +1,3 @@
+[submodule "Controller/library"]
+	path = Controller/library
+	url = /home/chris/Code/AB1TJKicadLibrary
