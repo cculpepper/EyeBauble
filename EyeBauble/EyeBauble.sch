@@ -462,11 +462,24 @@ U 1 1 5DA16EA0
 P 4600 5800
 F 0 "C101" H 4715 5846 50  0000 L CNN
 F 1 "C" H 4715 5755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4638 5650 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 4638 5650 50  0001 C CNN
 F 3 "~" H 4600 5800 50  0001 C CNN
 	1    4600 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4600 5950 4600 6150
+Text Label 750  1900 2    50   ~ 0
+INPUT
+$Comp
+L Connector:Conn_01x01_Female J101
+U 1 1 5E0E9C36
+P 1950 5600
+F 0 "J101" H 1978 5626 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 1978 5535 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 1950 5600 50  0001 C CNN
+F 3 "~" H 1950 5600 50  0001 C CNN
+	1    1950 5600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
